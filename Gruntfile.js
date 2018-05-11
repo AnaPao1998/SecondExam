@@ -27,7 +27,7 @@ grunt.registerTask('generatePage1',function(){
 				return grunt.template.process(files,
 					{
 						data: {
-							pageOneName: config.pageOne
+							pageOneName: config.pageOneName
 						}
 					});
 
@@ -43,7 +43,7 @@ grunt.registerTask('generatePage2',function(){
 				return grunt.template.process(files,
 					{
 						data: {
-							pageTwoName: config.pageTwo
+							pageTwoName: config.pageTwoName
 						}
 					});
 
