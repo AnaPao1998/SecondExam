@@ -56,4 +56,16 @@ grunt.registerTask('multitask',
 		['generateInd','generatePage1','generatePage2']);
 
 
+grunt.loadNpmTasks('grunt-contrib-jasmine');
+
+
+grunt.initConfig({
+	    jasmine: {
+	    JS: {
+	      options: {
+	        specs: 'spec/*.spec.js'
+	      }
+	    }
+	  }
+	});
 }
